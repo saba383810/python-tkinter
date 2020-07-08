@@ -11,10 +11,6 @@ def setValue(scl):
 
 def setBin():
     binsStr.set("")
-    
-
-
-def setHex():
 
 # スライドバーの値を表示するラベルを生成
 label = tk.Label( root, text = 'Value = %d' % val.get())

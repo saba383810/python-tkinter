@@ -20,10 +20,6 @@ def getBin(num):
         bindata +="0"
     return bindata
 
-    
-    
-
-
 # スライドバーの値を表示するラベルを生成
 label1 = tk.Label( root, text = 'Value = %d' % val.get())
 label1.pack()

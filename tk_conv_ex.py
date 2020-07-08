@@ -48,9 +48,7 @@ labelN.pack()
 n = tk.Entry( root )
 n.pack()
 
-
 button = tk.Button(root, text='変換', command=onClick)
 button.pack()
-
 
 root.mainloop()

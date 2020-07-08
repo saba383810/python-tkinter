@@ -1,9 +1,7 @@
 import tkinter as tk
 root = tk.Tk()
 
-
 var1 = tk.StringVar()
-
 
 def blueBtn():
     cv.create_oval(50,10,100,60,fill='blue')

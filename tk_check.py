@@ -1,7 +1,6 @@
 import tkinter as tk
 root = tk.Tk()
 
-
 expression = tk.StringVar()
 
 def check():

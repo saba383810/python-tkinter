@@ -1,8 +1,6 @@
 import tkinter as tk
 root = tk.Tk()
 
-
-
 label1 = tk.Label( root, text="10進数→16進数")
 label1.pack()
 def onClick():
@@ -15,8 +13,6 @@ def onClick():
 
     label2.config(text = "10進数 : "+ e.get())
     label3.config(text = "16進数 : "+ str.upper(format(int(e.get()),'x')))
-
-
 
 e = tk.Entry( root )
 # テキストボックス配置
